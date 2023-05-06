@@ -1,25 +1,9 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee
- */
 
 
-
-
-
-/*-----------------------------------*\
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
-  /**
-   * colors
-   */
-
+/* colors */
   --rich-black-fogra-29: hsl(225, 25%, 9%);
   --rich-black-fogra-39: hsl(170, 21%, 5%);
   --raisin-black: hsl(228, 13%, 15%);
@@ -35,9 +19,7 @@
   --black: hsl(0, 0%, 0%);
   --jet: hsl(0, 0%, 20%);
 
-  /**
-   * typography
-   */
+  /* typography */
 
   --ff-poppins: 'Poppins', sans-serif;
 
@@ -57,28 +39,17 @@
   --fw-500: 500;
   --fw-700: 700;
 
-  /**
-   * transition
-   */
+ /* transition */
 
   --transition-1: 0.15s ease;
   --transition-2: 0.25s ease-in;
 
-  /**
-   * spacing
-   */
+  /* spacing */
 
   --section-padding: 100px;
 
 }
 
-
-
-
-
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -124,15 +95,11 @@ body.active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
-
 .container { padding-inline: 15px; }
 
-/**
- * TITLES & SUBTITLES
- */
+
+/* titles */
+
 
 .h1,
 .h2,
@@ -159,9 +126,9 @@ body.active { overflow: hidden; }
 
 .section-title { text-align: center; }
 
-/**
- * BADGE
- */
+
+/* badge */
+
 
 .badge {
   color: var(--white);
@@ -178,9 +145,8 @@ body.active { overflow: hidden; }
 
 .badge-outline { border-color: var(--white); }
 
-/**
- * MOVIE META
- */
+/* movie data */
+
 
 .meta-wrapper {
   display: flex;
@@ -225,9 +191,8 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * BUTTONS
- */
+/* buttons */
+
 
 .btn {
   color: var(--white);
@@ -253,9 +218,8 @@ body.active { overflow: hidden; }
   color: var(--xiketic);
 }
 
-/**
- * MOVIE CARD
- */
+/* movie card */
+
 
 .movies-list {
   display: grid;
@@ -344,9 +308,8 @@ body.active { overflow: hidden; }
   color: var(--citrine);
 }
 
-/**
- * CUSTOM SLIDER & SCROLLBAR
- */
+/* slider */
+
 
 .movies-list.has-scrollbar {
   display: flex;
@@ -375,10 +338,8 @@ body.active { overflow: hidden; }
 
 
 
+/* header */
 
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   position: fixed;
@@ -492,10 +453,8 @@ body.active { overflow: hidden; }
 
 
 
+/* hero */
 
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
 
 .hero {
   background: url("../images/hero-bg.jpg") no-repeat;
@@ -526,10 +485,8 @@ body.active { overflow: hidden; }
 
 
 
+/* upcoming */
 
-/*-----------------------------------*\
- * #UPCOMING
-\*-----------------------------------*/
 
 .upcoming {
   background: url("../images/upcoming-bg.png") no-repeat;
@@ -570,10 +527,9 @@ body.active { overflow: hidden; }
 
 
 
+/* service */
 
-/*-----------------------------------*\
- * #SERVICE
-\*-----------------------------------*/
+
 
 .service {
   background: url("../images/service-bg.jpg") no-repeat;
@@ -674,11 +630,9 @@ body.active { overflow: hidden; }
 
 
 
+/* top-rated */
 
 
-/*-----------------------------------*\
- * #TOP RATED
-\*-----------------------------------*/
 
 .top-rated {
   background: url("../images/top-rated-bg.jpg") no-repeat;
@@ -729,10 +683,9 @@ body.active { overflow: hidden; }
 
 
 
+/* Shows */
 
-/*-----------------------------------*\
- * #TV SEREIS
-\*-----------------------------------*/
+
 
 .tv-series {
   background: url("../images/tv-series-bg.jpg") no-repeat;
@@ -746,10 +699,8 @@ body.active { overflow: hidden; }
 
 
 
+/* cta */
 
-/*-----------------------------------*\
- * #CTA
-\*-----------------------------------*/
 
 .cta {
   background: url("../images/cta-bg.jpg") no-repeat;
@@ -806,11 +757,9 @@ body.active { overflow: hidden; }
 
 
 
+/* footer */
 
 
-/*-----------------------------------*\
- * #FOOTER
-\*-----------------------------------*/
 
 .footer-top {
   background: url("../images/footer-bg.jpg") no-repeat;
@@ -904,10 +853,9 @@ body.active { overflow: hidden; }
 
 
 
+/* go top */
 
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
+
 
 .go-top {
   position: fixed;
@@ -935,10 +883,9 @@ body.active { overflow: hidden; }
 
 
 
+/* movie-detail */
 
-/*-----------------------------------*\
- * #MOVIE DETAIL 
-\*-----------------------------------*/
+
 
 .movie-detail {
   background: url("../images/movie-detail-bg.png") no-repeat;
@@ -1074,25 +1021,17 @@ body.active { overflow: hidden; }
 
 @media (min-width: 550px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * typography
-     */
-
+ 
     --fs-1: 42px;
 
   }
 
 
 
-  /**
-   * REUSED STYLE
-   */
 
   .container {
     max-width: 540px;
@@ -1108,9 +1047,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * HERO
-   */
+  /* hero */
 
   .hero { min-height: unset; }
 
@@ -1118,17 +1055,14 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * UPCOMING
-   */
+  /* upcoming */
+
 
   .upcoming .movies-list > li { min-width: calc(50% - 15px); }
 
 
 
-  /**
-   * SERVICE
-   */
+  /* service */
 
   .service-list > li:first-child { padding-bottom: 30px; }
 
@@ -1144,10 +1078,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * MOVIE DETAIL
-   */
-
+  /* movie detail */
   .detail-subtitle { --fs-5: 22px; }
 
   .detail-title { --fs-1: 46px; }
@@ -1158,15 +1089,11 @@ body.active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 768px screen
- */
+/* 768x screen */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  
 
   :root {
 
@@ -1188,9 +1115,8 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * HEADER
-   */
+  /* header */
+
 
   .header .container { gap: 30px; }
 
@@ -1376,9 +1302,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * HERO
-   */
+  /* hero */
 
   .hero { background-position: right; }
 
@@ -1391,9 +1315,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * UPCOMING
-   */
+  /* upcoming */
 
   .upcoming .flex-wrapper {
     display: flex;
@@ -1409,9 +1331,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * SERVICE
-   */
+  /* service */
 
   .service .container {
     display: flex;
@@ -1431,9 +1351,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * CTA
-   */
+  /* cta */
 
   .cta { text-align: left; }
 
@@ -1456,9 +1374,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * MOVIE DETAIL
-   */
+  /* movie detail */
 
   .movie-detail { padding-bottom: 200px; }
 
@@ -1490,15 +1406,11 @@ body.active { overflow: hidden; }
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* typo */
+
 
     --fs-1: 60px;
     --fs-4: 26px;
@@ -1507,9 +1419,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  
 
   .container { max-width: 1320px; }
 
@@ -1519,9 +1429,7 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * HEADER
-   */
+  /* headder */
 
   .navbar { margin-inline: auto; }
 
@@ -1534,25 +1442,18 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * HERO
-   */
-
+  /* hero */
   .hero .container { width: 1320px; }
 
 
 
-  /**
-   * UPCOMING
-   */
+  /* upcoming */
 
   .upcoming .movies-list > li { min-width: calc(25% - 22.5px); }
 
 
 
-  /**
-   * SERVICE
-   */
+  /* service */
 
   .service-content { width: calc(100% - 700px); }
 
@@ -1563,17 +1464,13 @@ body.active { overflow: hidden; }
 
 
 
-  /**
-   * CTA
-   */
+  /* cta */
 
   .cta .container { max-width: 1150px; }
 
 
 
-  /**
-   * MOVIE DETAIL
-   */
+  /* movie detail */
 
   .movie-detail { padding-bottom: var(--section-padding); }
 
